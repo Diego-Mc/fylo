@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-weight: unset;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--clr-main);
+  background-color: var(--clr-main-bg);
+}
+
+#app {
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-weight: unset;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+/* Dont stretch my Media */
+img,
+embed,
+video,
+object {
+  max-width: 100%;
+}
+
+.video:has(iframe) {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video iframe,
+.videos object,
+.video embed {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold;
+}
+
+/* inputs reset */
+input[type='text'],
+textarea {
+  appearance: none;
+  border: none;
+  resize: none;
+  padding: 0.6rem 0;
+  font-size: 0.88rem;
+  color: var(--clr-main);
+}
+
+input:focus-within,
+textarea:focus-within {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
