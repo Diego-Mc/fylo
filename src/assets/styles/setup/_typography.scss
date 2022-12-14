@@ -6,12 +6,10 @@
   font-weight: 400 700;
 }
 @font-face {
-  font-family: 'Poppins';
-  src: url(../fonts/sectioned-fonts/Poppins-Light.ttf) format('truetype');
-  font-weight: 200;
-}
-@font-face {
-  font-family: 'Poppins';
-  src: url(../fonts/sectioned-fonts/Poppins-Regular.ttf) format('truetype');
-  font-weight: 400;
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-VariableFont_wdth,wght.woff2')
+      format('woff2 supports variations'),
+    url('../fonts/OpenSans-VariableFont_wdth,wght.woff2')
+      format('woff2-variations');
+  font-weight: 400 700;
 }
