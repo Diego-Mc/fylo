@@ -8,3 +8,12 @@
 @import 'basics/helpers';
 @import 'basics/layout';
 @import 'basics/base';
+
+// Components
+@import 'cmps/app-header';
+@import 'cmps/app-hero';
+@import 'cmps/app-home';
+@import 'cmps/app-section';
+@import 'cmps/cards';
+@import 'cmps/form-cta';
+@import 'cmps/testimonials';

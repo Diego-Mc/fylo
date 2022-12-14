@@ -1,0 +1,23 @@
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(2, 380px);
+  justify-content: space-evenly;
+  row-gap: 76px;
+  padding-block: 90px;
+
+  .card-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .img {
+      width: 104px;
+      margin-bottom: 26px;
+    }
+    .title {
+      margin-bottom: 8px;
+      font-family: Raleway;
+      font-size: rem(20px);
+    }
+  }
+}

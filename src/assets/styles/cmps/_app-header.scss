@@ -1,0 +1,11 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 70px;
+
+  .main-nav {
+    display: flex;
+    gap: 60px;
+  }
+}

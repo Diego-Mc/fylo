@@ -1,0 +1,33 @@
+.testimonial-list {
+  display: flex;
+  padding-block: 90px;
+  gap: 40px;
+  .testimonial-preview {
+    padding: 40px 26px 26px;
+    background-color: $clr-4;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    gap: 28px;
+    .footer {
+      display: grid;
+      grid-template-areas: 'img name' 'img desc';
+      align-items: center;
+      justify-content: start;
+      column-gap: 8px;
+      .person-img {
+        grid-area: img;
+        height: 24px;
+        border-radius: 50%;
+      }
+      .person-name {
+        grid-area: name;
+        font-size: rem(10px);
+      }
+      .person-desc {
+        grid-area: desc;
+        font-size: rem(8px);
+      }
+    }
+  }
+}

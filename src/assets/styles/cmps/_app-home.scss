@@ -1,0 +1,8 @@
+.app-home {
+  background-color: $clr-1;
+  padding-inline: $layoutPadding;
+  > *:not(.full) {
+    max-width: 1400px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,27 @@
+.cta-section {
+  width: 860px;
+  background-color: $clr-4;
+  border-radius: 9px;
+  padding: 42px 76px;
+  text-align: center;
+  position: relative;
+
+  .title {
+    font-size: rem(32px);
+    font-family: Raleway;
+    margin-bottom: 16px;
+  }
+  .text {
+    margin-bottom: 40px;
+  }
+  .cta-form {
+    display: flex;
+    gap: 28px;
+    input {
+      flex: 1;
+    }
+    button {
+      padding-inline: 40px;
+    }
+  }
+}

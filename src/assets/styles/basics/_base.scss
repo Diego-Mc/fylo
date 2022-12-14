@@ -3,17 +3,16 @@
 }
 
 html {
-  font-family: Roboto, sans-serif;
-  font-weight: unset;
+  font-family: OpenSans, sans-serif;
+  font-weight: 400;
 }
 
 body {
   width: 100%;
   height: 100%;
   margin: 0;
-  font-size: 0.88rem;
-  color: var(--clr-main);
-  background-color: var(--clr-main-bg);
+  font-size: rem(14px);
+  color: $neutral-1;
 }
 
 #app {
@@ -27,6 +26,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-family: Raleway, serif;
 }
 
 p {
@@ -74,13 +74,13 @@ object {
 
 /* inputs reset */
 input[type='text'],
+input[type='email'],
 textarea {
   appearance: none;
   border: none;
   resize: none;
   padding: 0.6rem 0;
   font-size: 0.88rem;
-  color: var(--clr-main);
 }
 
 input:focus-within,
@@ -92,4 +92,33 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+button,
+a.btn {
+  outline: none;
+  appearance: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: em(16px);
+  font-weight: 700;
+  font-family: Raleway;
+  color: $neutral-1;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 4rem;
+  background-image: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+  padding: 20px 100px;
+  cursor: pointer;
+}
+
+input[type='text'],
+input[type='email'] {
+  font-size: em(16px);
+  font-weight: 700;
+  font-family: Raleway;
+  color: $clr-1;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 4rem;
+  padding: 20px 30px;
 }
